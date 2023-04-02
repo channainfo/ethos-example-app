@@ -42,7 +42,6 @@ The `SignInButton` component:
 
 ...and more!
 
-
 ### The Move Contract
 
 You can publish the move contract using the following command:
@@ -53,8 +52,14 @@ You can publish the move contract using the following command:
 
 `yarn dev`
 
-And then open a browser window to the specified port (e.g. http://localhost:3000)
+And then open a browser window to the specified port (e.g. <http://localhost:3000>)
 
 ### Deploying the front end
 
-Simply deploy to the main branch and the live site should update.
+Simply deploy to the main branch and the live site should update
+
+### Run test
+
+```sh
+yarn test
+```
